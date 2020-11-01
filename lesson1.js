@@ -250,33 +250,200 @@
 
 
 /* ******* CLASS ******* */
-    
-    
+
+
+// -------------Task 1------------
+
+// let str = "привет";
+// let num = 123;
+// let flag = true;
+// let txt = "true";
+
+// -------------Task 2------------
+
+// console.log(typeof(str));
+// console.log(typeof(num));
+// console.log(typeof(flag));
+// console.log(typeof(txt));
+
+// -------------Task 3------------
+
+// let a1 = 5 % 3;
+// console.log(a1);
+
+// let a2 = 3 % 5;
+// console.log(a2);
+
+// let a3 = 5 + '3';
+// console.log(a3);
+
+// let a4 = '5' - 3;
+// console.log(a4);
+
+// let a5 = 75 + 'кг';
+// console.log(a5);
+
+// -------------Task 4-----------
+
+// let height = 23;
+// let width = 10;
+
+// let s = height * width;
+
+// console.log(s);
+
+// -------------Task 5------------
 
 
 
+// let heightC = 10;
+// let dC = 4;
+
+// let v = Math.PI * Math.pow(dC/2, 2) * heightC;
+
+// console.log(v);
+
+// -------------Task 6------------ 
+// let n = 3;
+// let m = 4;
+
+// let k = Math.sqrt(Math.pow(n, 2) + Math.pow(m, 2));
+
+// console.log(k);
+
+// -------------Task 7------------
+
+// let welcome = "Hello world";
+
+// console.log(welcome); 
+// alert(welcome); 
+// document.write(welcome); 
 
 
 
+// -------------Task 8------------
+
+// alert("Kopachynska Olena Viktorivna\n21\nHiking");
+
+// -------------Task 9------------
+
+// let str1 = "Кто ";
+// let str2 = "ты ";
+// let str3 = "такой?";
+// let concatenation = str1 + str2 + str3;
+
+// document.write(concatenation);
+
+// -------------Task 10------------
+
+// let str = "20";
+// let a = 5;
+// document.write(str + a + "<br/>"); // буде 205 бо змінна типу стрінг + число буде просто стрінг  
+// document.write(str - a + "<br/>"); // буде 15 бо js перетворює стрінг в число при відніманні
+// document.write(str * "2" + "<br/>"); //  ???
+// document.write(str / 2 + "<br/>"); // буде 20 бо js перетворить стрінг на число
+
+// -------------Task 11------------
+
+//1. буде 3 
+//2. буде -7
+//3. буде 435
+//4. буде NaN
+
+// -------------Task 12------------
+
+// let str = prompt("Enter something", "ho-ho");
+// console.log(str);
+
+// -------------Task 13------------
+
+// let str = prompt( "Введите первое число");
+// let str1 = prompt( "Введите второе число");
+
+// let add = parseInt(str) + parseInt(str1);
+// alert(add);
+
+// -------------Task 14------------
+
+// let name = prompt("Введите ваше имя");
+// let surname = prompt("Введите вашу фамилию");
+// let age = prompt("Введите ваш возраст");
+
+// alert("Доброго вечера " + name + surname + ", мои поздравления что вам  " + age);
+
+//==========ДОП===========
+
+// Task1
+
+// let a = prompt("Enter first number: ");
+// let b = prompt("Enter second number: ");
+// let c = prompt("Enter third number: ");
 
 
 
+// if (a>b && a>c) {
+//     if (b>c) {
+//         console.log(a,b,c);
+
+//     } else {
+//         console.log(a,c,b);
+//     }
+// } else if (b>a && b>c) {
+//     if (a>c) { 
+//         console.log(b,a,c)
+//     }
+//         else {
+//             console.log(b,c,a)
+//         }
+
+//  } else if (c>a && c>b) {
+//     if (b>a) { 
+//         console.log(c,b,a)
+//     }
+//         else {
+//             console.log(c,a,b)
+//         }
+//     }
+
+// Task2
+
+// let color = prompt("Введіть колір")
+
+// if (color == "green") {
+//     console.log("иди");
+// } else if (color == "yellow") {
+//     console.log("подожди");
+
+// } else if (color == "red") {
+//     console.log("стой");
+// } else {
+//     console.log("делай что хочешь");
+// }
+
+// Task3
 
 
+// let color = prompt("Enter the color");
+// let isRoadClear = confirm("Is road clear?");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// if (color == "green") {
+//     if (isRoadClear == true) {
+//         console.log("иди");
+//     } else {
+//         console.log("подожди пока нарушители проедут");
+//     }
+// } else if (color == "yellow") {
+//     if (isRoadClear == true) {
+//         console.log("все рано жди");
+//     } else {
+//         console.log("жди");
+//     }
+// } else if (color == "red") {
+//     if (isRoadClear == true) {
+//         console.log("стой все рано");
+//     } else {
+//         console.log("стой и жди");
+//     }
+// } else {
+//     console.log("делай что хочешь");
+// }
