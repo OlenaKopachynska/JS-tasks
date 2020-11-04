@@ -55,7 +55,7 @@
 
 //         link3ChangeFont[i].style.fontSize = "30px";
 //     }
-    
+
 // }
 
 
@@ -72,19 +72,74 @@
 
 //     --отримує всі елементи 'sub-header' та змінює колір фону.Фон отримати з prompt()
 
+
+// let input = (prompt("Choose color", "9999ff"));
+// let input2 = input.toString();
+// console.log(input2)
+
 // let changeBackgroundColor = document.getElementsByClassName("sub-header");
-// let input = prompt("Choose color");
 
 // for (let i = 0; i < changeBackgroundColor.length; i++) {
-    
-// changeBackgroundColor[i].style.bachgroundColor = "input"
+
+// changeBackgroundColor[i].style.backgroundColor = `#${input2}`;
+// }
+
+
+//     --отримує всі елементи 'sub-header' та змінює колір тексту у видаку якщо текст елемнту = content 2 segment.Колір отримати з prompt()
+
+// let input = (prompt("Choose color", "9999ff"));
+// let input2 = input.toString();
+
+// let changeBackgroundColor = document.getElementsByClassName("sub-header");
+
+// for (let i = 0; i < changeBackgroundColor.length; i++) {
+
+
+
+//     if (changeBackgroundColor[i].textContent === "content 2 segment") {
+
+//         changeBackgroundColor[i].style.backgroundColor = `#${input2}`;
+//     }
+// }
+
+//     --отримує елемент з класом content_1 та заміняє в ньому тест на довільний.Текст отримати з prompt()
+
+// let textInput = (prompt("type something here"));
+
+// let changeText = document.getElementsByClassName("content_1");
+
+// for (let i = 0; i < changeText.length; i++) {
+
+//     changeText[i].textContent = `${textInput}`;
+
+// }
+
+
+//  --отримати елементи p та змінити їм paddin на довільне значення
+
+
+
+// let changePadding = document.getElementsByTagName("p");
+
+// let setPadding = Math.round(Math.random() * (100 - 0) + 0);
+
+
+// for (let i = 0; i < changePadding.length; i++) {
+
+
+
+//     console.log(setPadding);
+//     changePadding[i].style.padding = `${setPadding}px`
+
 // }
 
 
 
-
-//     --отримує всі елементи 'sub-header'
-// та змінює колір тексту у видаку якщо текст елемнту = content 2 segment.Колір отримати з prompt()
-//     --отримує елемент з класом content_1 та заміняє в ньому тест на довільний.Текст отримати з prompt()
-//     --отримати елементи p та змінити їм paddin на довільне значення
 //     --отримати елементи з класом text2 та змінити їм текст на довільне значення
+
+
+// let words = ["a", "ac", "accumsan", "ad", "adipiscing", "aenean", "aenean", "aliquam", "aliquam", "aliquet", "amet", "ante", "aptent", "arcu"]
+// let randomNumberOfwords = Math.round(Math.random() * (words.length - 1) + 1);
+// let array = words.splice(0, randomNumberOfwords).join(" ");
+
+// console.log(array);
