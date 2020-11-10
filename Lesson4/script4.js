@@ -59,7 +59,7 @@
 
 // let arr = [177, 555, 555, 6676, 2545, 7, 6, 1, 6];
 
-// function returnMinOutputMax(arr) {
+// function ReturnMinOutputMax(arr) {
 //     let minimalValueOfArray = Math.min.apply(null, arr);
 //     let maximalValueOfArray = Math.max.apply(null, arr);
 //     console.log(maximalValueOfArray);
@@ -68,7 +68,7 @@
 
 // }
 
-// console.log(returnMinOutputMax(arr));
+// console.log(ReturnMinOutputMax(arr));
 
 //     створити функцію яка виводить масив 
 
@@ -92,24 +92,24 @@
 
 // let arr = [177, 555, 555, 6676, 2545, 7, 6, 1, 6];
 
-// function min(arr) {
+// function Min(arr) {
 //     let minimalValueOfArray = Math.min.apply(null, arr)
 //     return minimalValueOfArray;
 // }
-// console.log(min(arr));
+// console.log(Min(arr));
 
 //     створити функцію яка приймає масив чисел та складає значення елементів масиву та повертає його. 
 
 
 // let arr = [177, 555, 555, 6676, 2545, 7, 6, 1, 6];
 
-// function putTogether(arr) {
+// function PutTogether(arr) {
 
 //     let createArray = arr.join("");
 //     return createArray;
 
 // }
-// console.log(putTogether(arr));
+// console.log(PutTogether(arr));
 
 //     створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень. 
 
@@ -117,7 +117,7 @@
 // let sum = 0;
 // let aver = 0;
 
-// function getAverage(array) {
+// function GetAverage(array) {
 //     for (i = 0; i < array.length; i++) {
 //         sum = sum + array[i]
 //         aver = sum / array.length
@@ -151,14 +151,14 @@
 // let sum = 0;
 // let aver = 0;
 
-// function getNumbOfElements(array) {
+// function GetNumbOfElements(array) {
 //     for (i = 0; i < array.length; i++) {
 //         sum = array.length;
 //     };
 //     return sum;
 // }
 
-// console.log(getNumbOfElements(array));
+// console.log(GetNumbOfElements(array));
 
 //     Створити функцію яка приймає масив будь яких объектів, та повертає загальн кількість полів в них 
 
