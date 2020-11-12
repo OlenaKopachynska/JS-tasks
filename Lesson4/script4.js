@@ -72,12 +72,11 @@
 
 //     створити функцію яка виводить масив 
 
-// let array = [34, "gnghkjhn", 556];
-
-// function ArrOut() {
-//     console.log(array);
+// function ArrOut(arr) {
+//     console.log(arr);
 // }
-// ArrOut(array);
+
+// ArrOut([34, "hi", 556]);
 
 //     створити функцію яка повертає найбільше число з масиву 
 
@@ -120,9 +119,10 @@
 // function GetAverage(array) {
 //     for (i = 0; i < array.length; i++) {
 //         sum = sum + array[i]
-//         aver = sum / array.length
+
 
 //     }
+//     aver = sum / array.length
 //     return aver;
 
 // }
@@ -148,10 +148,11 @@
 //     }
 // ];
 
-// let sum = 0;
-// let aver = 0;
+
 
 // function GetNumbOfElements(array) {
+//     let sum = 0;
+//     let aver = 0;
 //     for (i = 0; i < array.length; i++) {
 //         sum = array.length;
 //     };
@@ -203,17 +204,18 @@
 
 //     створити функцію яка скаладає значення елементів з однаковими індексами та повертає новий результуючий масив.
 
+
 // function Add(arr1, arr2) {
 
+//     let arr3 = []
 //     for (let i = 0; i < arr1.length; i++) {
 //         if (arr1.length === arr2.length) {
-//             let element = arr1[i] + arr2[i];
-//             console.log(element)
-//         } else {
-//             console.log("Arrays index are not equal")
+//             arr3.push(arr1[i] + arr2[i]);
 //         }
-//     }
+//     } 
+//     console.log(arr3)
 // }
+
 // let a = [1, 2, 3, 4];
 // let b = [5, 6, 7, 8];
 
@@ -422,9 +424,9 @@
 //             if (user.id  === city.user_id) {
 //                 user.adress = city
 //             }
-            
+
 //         }
-        
+
 //     }
 
 //     return users;

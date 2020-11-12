@@ -1,34 +1,28 @@
 //**********************Task 1*******************************
 
-// function DescribeTagName(titleOfTag, action, titleOfAttr, actionOfAttr, titleOfAttr2, actionOfAttr2) {
-//     this.titleOfTag = titleOfTag;
-//     this.action = action;
-//     this.attrs = [{
-//         titleOfAttr: titleOfAttr,
-//         actionOfAttr: actionOfAttr
-//     }, {
-//         titleOfAttr2: titleOfAttr2,
-//         actionOfAttr2: actionOfAttr2
-//     }]
-// };
+function DescribeTagName(titleOfTag, action, attrs) {
+    this.titleOfTag = titleOfTag;
+    this.action = action;
+    this.attrs = attrs;
+};
 
-// let a = new DescribeTagName("a", "Каждый элемент <area> определяет активные области изображения, которые являются ссылками", "accesskey", "Переход к области с помощью комбинации клавиш.", "alt", "Альтернативный текст для области изображения.");
-// let div = new DescribeTagName("div", "Элемент <div> является блочным элементом и предназначен для выделения ...", "align", "Задает выравнивание содержимого тега <div>.", "title", "Добавляет всплывающую подсказку к содержимому.");
-// let h1 = new DescribeTagName("h1", "тег <h1> представляет собой наиболее важный заголовок первого уровня ...", "align", "Определяет выравнивание заголовка.", "accesskey", "Позволяет получить доступ к элементу с помощью заданного сочетания клавиш.");
-// let span = new DescribeTagName("span", "Тег <span> предназначен для определения строчных элементов документа ...", "spellcheck", "Указывает браузеру проверять или нет правописание и грамматику в тексте.", "title", "Описывает содержимое элемента в виде всплывающей подсказки.");
-// let input = new DescribeTagName("input", "Тег <input> является одним из разносторонних элементов формы и позволяет создавать разные элементы интерфейса и обеспечить взаимодействие с пользователем ...", "accept", "Устанавливает фильтр на типы файлов, которые вы можете отправить через поле загрузки файлов.", "border", "Толщина рамки вокруг изображения.");
-// let form = new DescribeTagName("form", "Тег <form> устанавливает форму на веб-странице. ...", "action", "Адрес программы или документа, который обрабатывает данные формы.", "target", "Имя окна или фрейма, куда обработчик будет загружать возвращаемый результат.");
-// let option = new DescribeTagName("option", "Тег <option> определяет отдельные пункты списка, создаваемого с помощью контейнера <select>. ...", "disabled", "Заблокировать для доступа элемент списка.", "value", "Значение пункта списка, которое будет отправлено на сервер или прочитано с помощью скриптов.");
-// let select = new DescribeTagName("select", "Тег <select> позволяет создать элемент интерфейса в виде раскрывающегося списка ...", "disabled", "Блокирует доступ и изменение элемента.", "multiple", "Позволяет одновременно выбирать сразу несколько элементов списка.");
+let a = new DescribeTagName("a", "Каждый элемент <area> определяет активные области изображения, которые являются ссылками", [{name: "accesskey", actionOfAttr: "Переход к области с помощью комбинации клавиш."}, {name: "alt", actionOfAttr: "Альтернативный текст для области изображения."}]);
+let div = new DescribeTagName("div", "Элемент <div> является блочным элементом и предназначен для выделения ...", [{name: "align", actionOfAttr: "Задает выравнивание содержимого тега <div>."} , {name: "title", actionOfAttr: "Добавляет всплывающую подсказку к содержимому."}]);
+let h1 = new DescribeTagName("h1", "тег <h1> представляет собой наиболее важный заголовок первого уровня ...", [{name: "align", actionOfAttr: "Определяет выравнивание заголовка."}, {name: "accesskey", actionOfAttr: "Позволяет получить доступ к элементу с помощью заданного сочетания клавиш."}]);
+let span = new DescribeTagName("span", "Тег <span> предназначен для определения строчных элементов документа ...", [{name: "spellcheck", actionOfAttr: "Указывает браузеру проверять или нет правописание и грамматику в тексте."},{name: "title", actionOfAttr:"Описывает содержимое элемента в виде всплывающей подсказки."}]);
+let input = new DescribeTagName("input", "Тег <input> является одним из разносторонних элементов формы и позволяет создавать разные элементы интерфейса и обеспечить взаимодействие с пользователем ...", [{name: "accept", actionOfAttr: "Устанавливает фильтр на типы файлов, которые вы можете отправить через поле загрузки файлов."}, {name: "border", actionOfAttr: "Толщина рамки вокруг изображения."}]);
+let form = new DescribeTagName("form", "Тег <form> устанавливает форму на веб-странице. ...", [{name: "action", actionOfAttr: "Адрес программы или документа, который обрабатывает данные формы."}, {name: "target", actionOfAttr: "Имя окна или фрейма, куда обработчик будет загружать возвращаемый результат."}]);
+let option = new DescribeTagName("option", "Тег <option> определяет отдельные пункты списка, создаваемого с помощью контейнера <select>. ...", [{name: "disabled", actionOfAttr: "Заблокировать для доступа элемент списка."}, {name:"value", actionOfAttr: "Значение пункта списка, которое будет отправлено на сервер или прочитано с помощью скриптов."}]);
+let select = new DescribeTagName("select", "Тег <select> позволяет создать элемент интерфейса в виде раскрывающегося списка ...",[{name: "disabled", actionOfAttr: "Блокирует доступ и изменение элемента."}, {name:"multiple", actionOfAttr:"Позволяет одновременно выбирать сразу несколько элементов списка."}]);
 
-// console.log(a);
-// console.log(div);
-// console.log(h1);
-// console.log(span);
-// console.log(input);
-// console.log(form);
-// console.log(option);
-// console.log(select);
+console.log(a);
+console.log(div);
+console.log(h1);
+console.log(span);
+console.log(input);
+console.log(form);
+console.log(option);
+console.log(select);
 
 //**********************Task 2*******************************
 
